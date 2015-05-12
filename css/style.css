@@ -132,3 +132,14 @@ body {
 	font-size: 20px;
 	font-family: 'Fjalla One', sans-serif;
 }
+#add-items {
+	margin-top: 1em;
+	background-color: #ecf0f1;
+	border: none;
+	border-radius: 2.5em;
+	font-size: 12pt;
+	height:2em;
+	width:369.594px;
+	text-align: center;
+	color: #333333;
+}
