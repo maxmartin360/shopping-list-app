@@ -74,19 +74,21 @@ body {
 	border-radius: 1em;
 	padding-left: 0;
 	font-family: 'Open Sans', sans-serif;
-
 }	
 .new-content li {
-	width: 15em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0.7em;
 	background-color: #ecf0f1;
-	font-size: 24px;
-	border-radius:0.9em;
-	padding: 0.2em;
-}
-.delete {
+	border: none;
+	border-radius: 2.5em;
+	font-size: 12pt;
+	height:2em;
+	width:369.594px;
+	text-align: center;
+	color: #333333;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 52px;
+	}
+#cross-off {
 	cursor: pointer;
 	float: left;
 	height: 26px;
@@ -95,7 +97,7 @@ body {
 	margin-left: 0.3em;
 	margin-top: 0.2em;
 }
-.cross-off{
+#delete {
 	cursor: pointer;
 	float: right;
 	height: 26px;
@@ -142,4 +144,9 @@ body {
 	width:369.594px;
 	text-align: center;
 	color: #333333;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #666666;
 }
